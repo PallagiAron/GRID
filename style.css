@@ -38,7 +38,7 @@
     background-color: #48494B;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
     .grid-layout {
         grid-template-areas:
     "header"
@@ -69,4 +69,15 @@ li{
 
 h1{
     text-align: center;
+}
+
+figcaption{
+    text-align: center;
+    color: #B2BEB5;
+}
+
+#kep1{
+    display: block;
+  margin: auto;
+  width: 35%;
 }
